@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "This is a backend Project with CWC",
   "license": "ISC",
-  "author": "Sahil Ghorpade",
   "type": "commonjs",
+  "author": "Sahil Ghorpade",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
